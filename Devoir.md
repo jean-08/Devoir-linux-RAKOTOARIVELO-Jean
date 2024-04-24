@@ -4,12 +4,11 @@
 # Étapes d'installation
 Télecharger le fichier MySQL_version.tar.gz  
 https://dev.mysql.org  
-Décompresser et désarchiver de la source MySQL  
 
 Éxecutez ces cmd dans terminal  
 ```
-cd emplacement_source
-tar -zxvf mysql_version.tar.gz
+cd emplacement_source 
+tar -zxvf mysql_version.tar.gz  
 ``` 
 ```bash
 cd mysql_version
@@ -35,7 +34,7 @@ sudo apt-get install libncurses5-dev
 ```
 sudo apt-get install libxml2-dev
 ```
-après ,installatoin MySQL...  
+installatoin MySQL...  
 ```
 cd mysql_version
 cd build_msql
@@ -46,13 +45,14 @@ cd
 echo "export PATH="$PATH:/usr/local/mysql/bin" " >> .bashrc
 ```
 
+<img src="https://github.com/jean-08/Devoir-linux-RAKOTOARIVELO-Jean/blob/main/mysql.png?raw=true" alt="capture d'écran à la fin de l'installation " >
+
+
 # 2 - Apache
 # Étapes d'installation  
 Télecharger le fichier apache_version.tar.gz  
 https://httpd.apache.org  
-
-
-Décompression et Désarchivage de la source apache :  
+ 
 Éxecutez ces cmd dans terminal  
 ```
 cd emplacement_source
@@ -79,13 +79,14 @@ sudo make install
 cd
 echo ‘export PATH="$PATH:/usr/local/apache2/bin" ‘ >> .bashrc
 ```
+<img src="https://github.com/jean-08/Devoir-linux-RAKOTOARIVELO-Jean/blob/main/apache.png?raw=true" alt="capture à la fin de l'installation" >
 
 # 3 - PHP
 # Étapes d'installation
 Télécharger le php_version.tar.gz  
 https://www.php.net  
 
-Décompression et Désarchivage de la source php :  
+Éxecutez ces cmd dans terminal:    
 ```
 cd emplacement_source
 tar -zxvf php_version.tar.gz
@@ -111,3 +112,4 @@ après, installation php...
 sudo make
 sudo make install
 ```
+<img src="https://github.com/jean-08/Devoir-linux-RAKOTOARIVELO-Jean/blob/main/php.png?raw=true" alt="capture à la fin de l'installation" >
